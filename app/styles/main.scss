@@ -24,13 +24,38 @@
 //   }
 // }
 
-section {
+#a1 {
   @include outer-container;
-  aside { 
+ #b1 { 
     @include span-columns(6); 
     background-color: green;
     }
-  article {
+  #c1 {
     @include span-columns(6); 
-}   background-color: blue;
+   background-color: blue;
+}
+}
+
+#a2 {
+  @include outer-container;
+  #b2 {
+    @include span-columns(11);
+    @include omega;
+    background-color: red;
+  }
+  #b21 {
+    @include span-columns(10);
+    @include omega;
+    background-color: purple;
+  }
+  #b23 {
+    @include span-columns(9);
+    @include omega;
+    background-color: yellow;
+  }
+  #b24{
+    @include span-columns(8);
+    @include omega;
+    background-color; orange;
+  }
 }
