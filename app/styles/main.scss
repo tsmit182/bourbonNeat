@@ -36,26 +36,42 @@
 }
 }
 
+
 #a2 {
   @include outer-container;
+  background-color: grey;
   #b2 {
     @include span-columns(11);
-    @include omega;
+    // @include omega;
     background-color: red;
+    color: purple;
+  }
+  #article2 {
+    @include span-columns(1);
   }
   #b21 {
     @include span-columns(10);
-    @include omega;
-    background-color: purple;
+    // @include omega;
+    color: purple;
+  }
+  #article21 {
+    @include span-columns(2);
   }
   #b23 {
     @include span-columns(9);
-    @include omega;
+    // @include omega;
     background-color: yellow;
+    height: 4em;
+  }
+  #article22 {
+    @include span-columns(3);
   }
   #b24{
     @include span-columns(8);
     @include omega;
     background-color; orange;
+  }
+  #article23 {
+    @include span-columns(4);
   }
 }
