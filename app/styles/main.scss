@@ -39,7 +39,7 @@
 
 #a2 {
   @include outer-container;
-  background-color: grey;
+  // background-color: grey;
   #b2 {
     @include span-columns(11);
     // @include omega;
@@ -53,6 +53,7 @@
     @include span-columns(10);
     // @include omega;
     color: purple;
+    background-color:black;
   }
   #article21 {
     @include span-columns(2);
@@ -61,7 +62,7 @@
     @include span-columns(9);
     // @include omega;
     background-color: yellow;
-    height: 4em;
+    // height: 4em;
   }
   #article22 {
     @include span-columns(3);
@@ -69,9 +70,10 @@
   #b24{
     @include span-columns(8);
     @include omega;
-    background-color; orange;
+    background-color: orange;
   }
   #article23 {
     @include span-columns(4);
+    background-color:blue;
   }
 }
