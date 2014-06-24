@@ -26,6 +26,7 @@
 
 #a1 {
   @include outer-container;
+  @include linear-gradient(#1e5799, #2989d8);
  #b1 { 
     @include span-columns(6); 
     background-color: green;
@@ -57,6 +58,8 @@
   }
   #article21 {
     @include span-columns(2);
+    color:orange;
+    background-color:aliceblue;
   }
   #b23 {
     @include span-columns(9);
@@ -69,7 +72,7 @@
   }
   #b24{
     @include span-columns(8);
-    @include omega;
+    // @include omega;
     background-color: orange;
   }
   #article23 {
